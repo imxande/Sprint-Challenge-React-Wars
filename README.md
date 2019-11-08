@@ -24,24 +24,31 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+    
+    1-) React is a a library for building UI. React creates components that are re-usable. Thus allowing us to break complex problems in to simple ones.  
 
-- [ ] What does it mean to _think_ in react?
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe state.
+    2-) To think like in react is to think in simple components that can be combine in to a more complex problem. Is to to think about the structure as you break down complex problems into smaller ones. 
 
-- [ ] Describe props.
+- [x] Describe state.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+    3-) State is the data that we (in our case components) have access to. 
+
+- [x] Describe props.
+    4-) Props are the properties that can be passed down to components. 
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` or `npm install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start` or `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
