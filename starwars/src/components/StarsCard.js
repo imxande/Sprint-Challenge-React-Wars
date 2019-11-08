@@ -13,7 +13,7 @@ return(
                 <CardText>Birth Year: {props.birthYear}</CardText>
                 <CardText>Eye Color: {props.eyes}</CardText>
                 <CardText>Hair Color: {props.hair}</CardText>
-                <Button className='text-left'>Click Me!</Button>
+                <Button className='text-left'>Click</Button>
             </CardBody>
         </Card>
 

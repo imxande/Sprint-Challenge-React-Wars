@@ -11,8 +11,8 @@ import {Container, Row} from 'reactstrap';
         axios
           .get(`https://swapi.co/api/people/`)
           .then(response => {
-            console.log(response.data);
-            setPeople(response.data);
+            console.log(response.data.results);
+            setPeople(response.data.results);
           })
           .catch(error => {
             console.log("the data was not return", error);
@@ -22,16 +22,16 @@ import {Container, Row} from 'reactstrap';
       return (
         <Container>
             <Row>
-            {people.map((result, index) => {
+            {people.map((results, index) => {
                 return (
                 <StarsCard
                     key = {index}
-                    name = {people.name} 
-                    gender = {people.gender}
-                    hair = {people.hair_color}
-                    eyes = {people.eye_color}
-                    birthYear = {people.birth_year}
-                    species = {people.species}
+                    name = {results.name} 
+                    gender = {results.gender}
+                    hair = {results.hair_color}
+                    eyes = {results.eye_color}
+                    birthYear = {results.birth_year}
+                    species = {results.species}
 
                 />
                 )
